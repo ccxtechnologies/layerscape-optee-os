@@ -45,6 +45,7 @@ boards_list=(
 	ls1012afrwy \
 	ls1043ardb \
 	ls1046ardb \
+	ls1046accx \
 	ls1088ardb \
 	ls2088ardb \
 	lx2160ardb \
@@ -180,4 +181,3 @@ then
 fi
 
 build $1
-
