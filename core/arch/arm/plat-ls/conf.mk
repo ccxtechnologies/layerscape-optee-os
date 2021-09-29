@@ -68,6 +68,7 @@ CFG_SHMEM_SIZE ?= 0x00200000
 endif
 
 ifeq ($(PLATFORM_FLAVOR),ls1046accx)
+CFG_HW_UNQ_KEY_REQUEST ?= y
 include core/arch/arm/cpu/cortex-armv8-0.mk
 $(call force,CFG_TEE_CORE_NB_CORE,4)
 $(call force,CFG_DRAM0_SIZE,0x80000000)
